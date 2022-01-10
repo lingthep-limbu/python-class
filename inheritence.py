@@ -24,4 +24,4 @@ class Dog(Animal):
 d=Dog()
 print(d)
 d.whoIs()
-d.eat()
+print(d.eat())
