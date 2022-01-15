@@ -7,3 +7,10 @@ def my_function(**kwargs):
         print("don't like that fruit")
         
 my_function(fruit='apple')
+
+# try except -> error handeling
+# scope-> local scope and global scope
+
+x=25 # global scope
+def func():
+    x=20 #-> local scope
